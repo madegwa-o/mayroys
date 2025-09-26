@@ -41,7 +41,7 @@ const foodItems = [
 ];
 
 export default function Home() {
-  const phoneNumber = "011 522 5391";
+  const phoneNumber = "0741446987";
   const whatsappNumber = phoneNumber.replace(/\s/g, ""); // Remove spaces for WhatsApp URL
 
   const createWhatsAppLink = (foodName: string) => {
