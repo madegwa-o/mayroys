@@ -4,15 +4,15 @@ import Image from 'next/image';
 const foodItems = [
   {
     id: 1,
-    name: "Fresh Vegetables Bundle",
-    price: "R 150.00",
-    image: "/api/placeholder/300/200", // Replace with actual image paths
+    name: "Kebab",
+    price: "sh 80.00",
+    image: "/kebab.jpg", // Replace with actual image paths
   },
   {
     id: 2,
-    name: "Premium Rice (5kg)",
+    name: "Full course Lunch",
     price: "R 89.99",
-    image: "/api/placeholder/300/200",
+    image: "/lunch.jpg",
   },
   {
     id: 3,
@@ -22,21 +22,9 @@ const foodItems = [
   },
   {
     id: 4,
-    name: "Fresh Chicken (1kg)",
-    price: "R 65.00",
-    image: "/api/placeholder/300/200",
-  },
-  {
-    id: 5,
-    name: "Dairy Products Bundle",
-    price: "R 200.00",
-    image: "/api/placeholder/300/200",
-  },
-  {
-    id: 6,
-    name: "Spices & Seasonings",
+    name: "Seasoned Meet",
     price: "R 45.00",
-    image: "/api/placeholder/300/200",
+    image: "/nyama.jpg",
   },
 ];
 
