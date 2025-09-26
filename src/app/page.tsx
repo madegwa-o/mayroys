@@ -46,7 +46,7 @@ export default function Home() {
 
   const createWhatsAppLink = (foodName: string) => {
     const message = encodeURIComponent(`Hi! I'm interested in ordering ${foodName} from May Royce Foods.`);
-    return `https://wa.me/27${whatsappNumber.substring(1)}?text=${message}`;
+    return `https://wa.me/254${whatsappNumber.substring(1)}?text=${message}`;
   };
 
   return (
