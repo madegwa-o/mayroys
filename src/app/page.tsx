@@ -11,13 +11,13 @@ const foodItems = [
   {
     id: 2,
     name: "Full course Lunch",
-    price: "R 89.99",
+    price: "sh 89.99",
     image: "/lunch.jpg",
   },
   {
     id: 3,
     name: "Organic Fruits Mix",
-    price: "R 120.00",
+    price: "sh 50.00",
     image: "/api/placeholder/300/200",
   },
   {
